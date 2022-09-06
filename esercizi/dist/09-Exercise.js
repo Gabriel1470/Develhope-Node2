@@ -114,7 +114,7 @@ app["delete"]("/delete/:id(\\d+)", function (req, res, next) { return __awaiter(
                 _a.label = 1;
             case 1:
                 _a.trys.push([1, 3, , 4]);
-                return [4 /*yield*/, prisma.exercise5["delete"]({
+                return [4 /*yield*/, prisma.exercise06["delete"]({
                         where: { id: info }
                     })];
             case 2:

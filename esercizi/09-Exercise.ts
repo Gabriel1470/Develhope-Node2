@@ -52,7 +52,7 @@ app.put('/put/:id(\\d+)',async (req,res,next)=>{
 app.delete("/delete/:id(\\d+)",async (req,res,next)=>{
     const info=Number(req.params.id)
     try{
-         await prisma.exercise5.delete({
+         await prisma.exercise06.delete({
             where:{id:info}
         })
         res.status(204).end()
